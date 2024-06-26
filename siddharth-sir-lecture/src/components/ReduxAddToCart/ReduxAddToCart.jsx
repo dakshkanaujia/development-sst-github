@@ -7,11 +7,11 @@ function ReduxAddToCart({ product }) {
     let dispatch = useDispatch();
     function increase() {
         //dispatch({type: , payload: })
-        dispatch(addToCart);
+        dispatch(addToCart(product));
     }
     function decrease() {
      //dispatch({type: , payload: })
-        dispatch(removeFromCart);
+        dispatch(removeFromCart(product));
     }
 
     let quantity = useSelector((state) => {
