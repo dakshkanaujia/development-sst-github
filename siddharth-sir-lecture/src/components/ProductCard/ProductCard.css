@@ -1,3 +1,14 @@
 .product-card {
-    border: 1px solid red;
+    padding: 1%;
+    margin: 2%;
+    border: 2px solid rgb(5, 4, 4);
+    box-shadow: 0 5px 5px grey;
+    width: 10vw;
+    height: 24vh;
+}
+
+.imageContainer img{
+    margin: 10%;
+    width: 5vw;
+    height: 5vh;
 }
