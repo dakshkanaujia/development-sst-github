@@ -6,5 +6,5 @@ fs.readFile('file.txt', 'utf8', (err, data) => {
         console.error('Error reading file:');
         return;
     }
-    console.log('File content:', data);
+    console.log('File content: is as follows', data);
 });
